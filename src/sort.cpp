@@ -1,8 +1,7 @@
 #include "sort.h"
-#include "stringProcessor.h" // тут потрібен strcmpp
+#include "stringProcessor.h"
 #include <utility>
 
-// Обмін двох елементів масиву вказівників на char
 void swap(char** a, char** b)
 {
     if (!a || !b) return;
@@ -11,12 +10,10 @@ void swap(char** a, char** b)
     *b = tmp;
 }
 
-// Ітеративний quicksort для масиву C-рядків (char*), порядок: зростання (лексикографічно)
 void quick_sort(char** arr, size_t length)
 {
     if (!arr || length < 2ull) return;
 
-    // Невеликий стек для меж сегментів [l, r]
     size_t stack[64];
     size_t top = 0;
 
@@ -48,13 +45,13 @@ void quick_sort(char** arr, size_t length)
                 }
             }
 
-            // Розкладаємо «хвости» так, щоб менший сегмент ішов у стек (tail-recursion elimination)
+            
             if (j - l < r - i) {
                 if (l < j) push(l, j);
                 l = i;
             } else {
                 if (i < r) push(i, r);
-                if (j == (size_t)-1) break; // захист від підтікання беззнакового
+                if (j == (size_t)-1) break;
                 r = j;
             }
         }

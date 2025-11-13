@@ -49,10 +49,8 @@ int32_t strcmpp(const char* fStr, const char* sStr)
     return (int32_t)((unsigned char)*fStr - (unsigned char)*sStr);
 }
 
-// Оновлена валідація під умови тесту test.cpp
 bool is_string_valid(const char* str)
 {
-    // 1. Базові перевірки (NULL або пустий)
     if (!str) return false;
     if (*str == '\0') return false;
 
@@ -61,31 +59,23 @@ bool is_string_valid(const char* str)
     const unsigned char* p = (const unsigned char*)str;
 
     while (*p != '\0') {
-        // Перевірка ліміту довжини
+
         if (len >= STRING_MAX) return false;
 
-        // Перевірка на наявність хоча б одного символу тексту
         if (!isspace(*p)) has_non_space = true;
 
-        // --- НОВА ЛОГІКА ДЛЯ ТЕСТУ ---
-        // Перевіряємо, чи не йдуть знаки пунктуації поспіль (наприклад ",;")
-        // ispunct перевіряє символи типу , ; : ! .
         if (ispunct(*p)) {
-            // Дивимось на наступний символ
             unsigned char next = *(p + 1);
             
-            // Якщо наступний символ існує (не кінець рядка) І теж є знаком пунктуації
             if (next != '\0' && ispunct(next)) {
-                return false; // Знайдено ",;" або ";," або ":," -> Помилка
+                return false;
             }
         }
-        // -----------------------------
 
         p++;
         len++;
     }
 
-    // Фінальний захист довжини
     if (len >= STRING_MAX) return false;
 
     return has_non_space;

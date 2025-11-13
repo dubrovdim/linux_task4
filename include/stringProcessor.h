@@ -13,4 +13,4 @@ int32_t strcmpp(const char* fStr, const char* sStr);
 
 bool    is_string_valid(const char* str);
 
-#endif // STRING_PROCESSOR
+#endif

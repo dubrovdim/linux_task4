@@ -1,2 +1,2 @@
-all_tests 1 0.149267
+all_tests 2 0.03629
 ---
