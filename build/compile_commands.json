@@ -1,0 +1,50 @@
+[
+{
+  "directory": "C:/Users/Dmytro/Desktop/linux_cursova/task4_test/cmake_vs_mkr_test1/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/test_repos.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\test_repos.dir\\src\\pch.cpp.obj -c C:\\Users\\Dmytro\\Desktop\\linux_cursova\\task4_test\\cmake_vs_mkr_test1\\src\\pch.cpp",
+  "file": "C:/Users/Dmytro/Desktop/linux_cursova/task4_test/cmake_vs_mkr_test1/src/pch.cpp",
+  "output": "CMakeFiles/test_repos.dir/src/pch.cpp.obj"
+},
+{
+  "directory": "C:/Users/Dmytro/Desktop/linux_cursova/task4_test/cmake_vs_mkr_test1/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/test_repos.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\test_repos.dir\\src\\stringProcessor.cpp.obj -c C:\\Users\\Dmytro\\Desktop\\linux_cursova\\task4_test\\cmake_vs_mkr_test1\\src\\stringProcessor.cpp",
+  "file": "C:/Users/Dmytro/Desktop/linux_cursova/task4_test/cmake_vs_mkr_test1/src/stringProcessor.cpp",
+  "output": "CMakeFiles/test_repos.dir/src/stringProcessor.cpp.obj"
+},
+{
+  "directory": "C:/Users/Dmytro/Desktop/linux_cursova/task4_test/cmake_vs_mkr_test1/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/test_repos.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\test_repos.dir\\src\\sort.cpp.obj -c C:\\Users\\Dmytro\\Desktop\\linux_cursova\\task4_test\\cmake_vs_mkr_test1\\src\\sort.cpp",
+  "file": "C:/Users/Dmytro/Desktop/linux_cursova/task4_test/cmake_vs_mkr_test1/src/sort.cpp",
+  "output": "CMakeFiles/test_repos.dir/src/sort.cpp.obj"
+},
+{
+  "directory": "C:/Users/Dmytro/Desktop/linux_cursova/task4_test/cmake_vs_mkr_test1/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/test_repos.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\test_repos.dir\\tests\\test.cpp.obj -c C:\\Users\\Dmytro\\Desktop\\linux_cursova\\task4_test\\cmake_vs_mkr_test1\\tests\\test.cpp",
+  "file": "C:/Users/Dmytro/Desktop/linux_cursova/task4_test/cmake_vs_mkr_test1/tests/test.cpp",
+  "output": "CMakeFiles/test_repos.dir/tests/test.cpp.obj"
+},
+{
+  "directory": "C:/Users/Dmytro/Desktop/linux_cursova/task4_test/cmake_vs_mkr_test1/build/_deps/googletest-build/googlemock",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\Users\\Dmytro\\Desktop\\linux_cursova\\task4_test\\cmake_vs_mkr_test1\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
+  "file": "C:/Users/Dmytro/Desktop/linux_cursova/task4_test/cmake_vs_mkr_test1/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
+},
+{
+  "directory": "C:/Users/Dmytro/Desktop/linux_cursova/task4_test/cmake_vs_mkr_test1/build/_deps/googletest-build/googlemock",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\Users\\Dmytro\\Desktop\\linux_cursova\\task4_test\\cmake_vs_mkr_test1\\build\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
+  "file": "C:/Users/Dmytro/Desktop/linux_cursova/task4_test/cmake_vs_mkr_test1/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
+},
+{
+  "directory": "C:/Users/Dmytro/Desktop/linux_cursova/task4_test/cmake_vs_mkr_test1/build/_deps/googletest-build/googletest",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\Users\\Dmytro\\Desktop\\linux_cursova\\task4_test\\cmake_vs_mkr_test1\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
+  "file": "C:/Users/Dmytro/Desktop/linux_cursova/task4_test/cmake_vs_mkr_test1/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+},
+{
+  "directory": "C:/Users/Dmytro/Desktop/linux_cursova/task4_test/cmake_vs_mkr_test1/build/_deps/googletest-build/googletest",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\Users\\Dmytro\\Desktop\\linux_cursova\\task4_test\\cmake_vs_mkr_test1\\build\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
+  "file": "C:/Users/Dmytro/Desktop/linux_cursova/task4_test/cmake_vs_mkr_test1/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
+}
+]
